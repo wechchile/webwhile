@@ -2,47 +2,49 @@ header
 {
    background-color: #5b7989;
    width: 100%;
-   height: 25%;
+   height: 100px;
    margin: 1px;
    border-radius: 10px 10px 0 0;
 }
 div#gobal
 {
+
   width: 100%;
   height: 50px
-  border: 2px solid blue;
-  font-size: 30px;
+
+
   font-family: "Dancing Script";
   overflow: hidden;
 }
 div#titu{
+  margin-top: 25px;
   order: 1;
   color: white;
-  font-size: 30px;
+  font-size: 45px;
   font-family: "Dancing Script";
   text-shadow: 2px 2px 2px #02010a;
   width: 60%;
   margin: 5px;
-  border: 2px solid red;
+
   float: left;
   display: inline;
 }
 div#index{
+  font-size: 30px;
   display: inline-block;
   order: 2;
   float: right;
   width: 30%;
-  border:  2px solid white;
   display: inline;
 }
 div#paisaje{
   float: right;
   width: 60%;
-  border:  2px solid white;
+
 }
 div#retratos{
   float: right;
-    border:  2px solid white;
+
   width: 40%;
 }
 
