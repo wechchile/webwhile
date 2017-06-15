@@ -10,7 +10,7 @@ div#gobal
 {
 
   width: 100%;
-  height: 50px;
+  height: 100px;
     font-family: "Dancing Script";
   overflow: hidden;
 }
@@ -60,3 +60,37 @@ body{
   font-family: "Dancing Script";
   src:  url("../fuente/DancingScript.otf");
 }
+#linea1{
+  width: 100%;
+}
+
+
+#imag1_izq{
+  float: left;
+  width: 30%;
+}
+ #imag1_centro{
+   float: left;
+   width: 30%
+ }
+ #imag1_der{
+   float: left;
+   width: 30%;
+ }
+ #linea2{
+   width: 100%;
+ }
+
+
+ #imag2_izq{
+   float: left;
+   width: 30%;
+ }
+  #imag2_centro{
+    float: left;
+    width: 30%
+  }
+  #imag2_der{
+    float: left;
+    width: 30%;
+  }
