@@ -62,21 +62,44 @@ body{
 }
 #linea1{
   width: 100%;
+  height: 210px;
 }
 
 
 #imag1_izq{
+  display: block;
   float: left;
-  width: 30%;
+  width: 33%;
+  height: 100%;
+  background: #d5c75f;
+}
+#imagen{
+
+  text-align: center;
+  margin: 5% 5% 5% 5%;
 }
  #imag1_centro{
    float: left;
-   width: 30%
+   width: 33%;
+   height: 100%;
+   background: #d5c75f;
  }
+ #imgen2{
+   text-align: center;
+   margin: 5% 5% 5% 5%;
+ }
+
  #imag1_der{
    float: left;
-   width: 30%;
+   width: 34%;
+   height: 100%;
+   background: #d5c75f;
  }
+ #imgen3{
+   text-align: center;
+   margin: 5% 5% 5% 5%;
+ }
+
  #linea2{
    width: 100%;
  }
@@ -84,13 +107,19 @@ body{
 
  #imag2_izq{
    float: left;
-   width: 30%;
+   width: 33%;
+   height: 100%;
+   background: #d5c75f;
  }
   #imag2_centro{
     float: left;
-    width: 30%
+    width: 33%;
+    height: 100%;
+    background: #d5c75f;
   }
   #imag2_der{
     float: left;
-    width: 30%;
+    width: 34%;
+    height: 100%;
+    background: #d5c75f;
   }
