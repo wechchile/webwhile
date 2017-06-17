@@ -52,7 +52,7 @@ a{
 }
 
 body{
-  background-color: black;
+  background-color: #02010A;
   font-family: "Dancing Script";
   border: 2px;
 
@@ -74,6 +74,7 @@ div#imag1{
 width: 70%;
 margin: 10% 10% 10% 10%;
 text-align: center;
+text-shadow: 2px 2px 2px #02010a;
 
 }
 
@@ -82,10 +83,13 @@ text-align: center;
   display: block;
   margin: : 15px 0  0 0;
   width: 70%;
-
+  box-shadow:  2px 2px 2px #02010a;
   margin: 8% 5% 5% 5%;
   text-align: center;
-
+  text-shadow: 2px 2px 2px #02010a;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
 
 }
 #imgen2:hover{
@@ -99,18 +103,27 @@ transform: rotate(10deg);
   display: block;
   margin: : 15px 0  0 0;
   width: 70%;
-
+  box-shadow: 2px 2px 2px 2px #02010a;
   margin-top:  10px;
-  margin: 5% 5% 5% 5%;
+  margin: 8% 5% 5% 5%;
   text-align: center;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
 /*  width: 80%*/
 
 }
 
+#imgen3:hover{
+  transform: translate(5px, -20px);
+  -ms-transform: translate(5px, -20px); /* IE 9 */
+  -webkit-transform: translate(5px, -20px); /* Safari y Chrome */
+  -moz-transform: translate(5px, -20px); /* Firefox */
+}
 
 div#img_izq{
   width: 50%;
-  height: 300px;
+  height: 400px;
   background-color:  #d5c75f;
   float: left;
 
@@ -120,7 +133,7 @@ div#img_izq{
 
   div#img_der{
     width: 50%;
-    height: 280px;
+    height: 400px;
     background-color:  #d5c75f;
     float: right;
     }
@@ -129,14 +142,15 @@ div#img_izq{
     display: flex;
   /*  position: relative;*/
     width: 100%;
+    height: 100px
      background-color:  #C6d5c5;
 
   }
 
 #contacto{
    display: flex;
-  height: 50px;
-   border: 2px solid red;
+
+
    background: #C6d5c5;
    width: 25%;
    text-align : center;
