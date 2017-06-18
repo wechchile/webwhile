@@ -76,7 +76,16 @@ body{
 #imagen{
   text-align: center;
   margin: 5% 5% 5% 5%;
+  filter: blur(10px);
 }
+
+img#imagen2{
+  text-align: center;
+  margin: 5% 5% 5% 5%;
+  filter: grayscale(100%);
+}
+
+
  #imag1_centro{
    float: left;
    width: 33%;
@@ -86,8 +95,12 @@ body{
  #imgen2{
    text-align: center;
    margin: 5% 5% 5% 5%;
+   filter: grayscale(100%);
  }
-
+ #imgn2{
+   text-align: center;
+   margin: 5% 5% 5% 5%;
+ }
  #imag1_der{
    float: left;
    width: 34%;
@@ -97,8 +110,14 @@ body{
  #imgen3{
    text-align: center;
    margin: 5% 5% 5% 5%;
+   filter: sepia(90%);
  }
+ #imgen3a{
+   text-align: center;
+   margin: 5% 5% 5% 5%;
+   filter: grayscale(100%);
 
+ }
  #linea2{
    width: 100%;
    height: 210px;
