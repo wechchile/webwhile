@@ -129,23 +129,34 @@ div#img_izq{
     border-radius:  0px 0px 10px 10px;
   }
 
+  #ticont{
+        width: 100%;
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: center;
+  }
+
+/*contacto*/
+
 #contacto{
   float: left;
    height: 100%;
    width: 25%;
   /* border: 2px solid red;*/
 }
-#ticont{
-      width: 100%;
-      font-size: 25px;
-      font-weight: bolder;
-      text-align: center;
-}
+
 #cont1{
   width: 100%;
   font-size: 15px;
   text-align: center;
 }
+
+#conta{
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+
 /* redes soliales*/
 #cont2{
   width: 100%;
@@ -181,11 +192,10 @@ div#img_izq{
   text-align: center;
   float: left;
 }
-
+/*teminos*/
 #teminos{
    float: left;
    width: 25%;
-   border: 2px solid blue;
    height: 100%;
 }
 
@@ -204,12 +214,7 @@ div#img_izq{
   text-align: center;
 }
 
-#rede1{
-  text-align: center;
-  width: 20px;
-  height: 20px;
-  float: left;
-}
+
 #rede2{
   width: 60%;
   position: relative;
