@@ -151,15 +151,20 @@ div#img_izq{
   width: 100%;
   font-size: 15px;
   text-align: center;
+  justify-content: center;
+  display: flex;
+}
+#contre{/* */
+ width: 100%;
 }
 #cont3{
   width: 100%;
   font-size: 15px;
   text-align: center;
+  float: left;
 }
 
 #teminos{
-
    float: left;
    width: 25%;
    border: 2px solid blue;
@@ -171,14 +176,18 @@ div#img_izq{
    width: 25%;
 }
 #redes{
-   float:left;
+  float: left;
    width: 25%;
 }
 #rede{
   width: 20px;
   height: 20px;
-  float: left;
+  position: relative;
   text-align: center;
+}
+#nomb{
+  position: relative;
+  float:  right;
 }
 #rede1{
   text-align: center;
