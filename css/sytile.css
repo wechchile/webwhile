@@ -146,17 +146,35 @@ div#img_izq{
   font-size: 15px;
   text-align: center;
 }
-
+/* redes soliales*/
 #cont2{
   width: 100%;
   font-size: 15px;
-  text-align: center;
-  justify-content: center;
+  /*text-align: center;
+  justify-content: center;*/
   display: flex;
 }
 #contre{/* */
- width: 100%;
+ width: 40%;
+ float: left;
+ justify-content: flex-end;
 }
+#contre2{
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+#rede{
+  width: 20px;
+  height: 20px;
+  position: relative;
+ float: right;
+}
+#nomb{
+  position: relative;
+  float:  left;
+}
+
 #cont3{
   width: 100%;
   font-size: 15px;
@@ -185,10 +203,7 @@ div#img_izq{
   position: relative;
   text-align: center;
 }
-#nomb{
-  position: relative;
-  float:  right;
-}
+
 #rede1{
   text-align: center;
   width: 20px;
