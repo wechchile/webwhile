@@ -108,7 +108,7 @@ div#imag1{
 }
 div#img_izq{
   width: 50%;
-  height: 400px;
+  height: 300px;
   background-color:  #d5c75f;
   float: left;
   /*position: static;
@@ -117,7 +117,7 @@ div#img_izq{
 
   div#img_der{
     width: 50%;
-    height: 400px;
+    height: 300px;
     background-color:  #d5c75f;
     float: right;
     }
