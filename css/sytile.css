@@ -121,102 +121,102 @@ div#img_izq{
     background-color:  #d5c75f;
     float: right;
     }
-#pie{
-    display: flex;
-    width: 100%;
-    height: 100px;
-    background-color:  #C6d5c5;
-    border-radius:  0px 0px 10px 10px;
-  }
-
-  #ticont{
+    #pie{
+        display: flex;
         width: 100%;
-        font-size: 25px;
-        font-weight: bolder;
-        text-align: center;
-  }
+        height: 100px;
+        background-color:  #C6d5c5;
+        border-radius:  0px 0px 10px 10px;
+      }
 
-/*contacto*/
+      #ticont{
+            width: 100%;
+            font-size: 25px;
+            font-weight: bolder;
+            text-align: center;
+      }
 
-#contacto{
-  float: left;
-   height: 100%;
-   width: 25%;
-  /* border: 2px solid red;*/
-}
+    /*contacto*/
 
-#cont1{
-  width: 100%;
-  font-size: 15px;
-  text-align: center;
-}
+    #contacto{
+      float: left;
+       height: 100%;
+       width: 25%;
+      /* border: 2px solid red;*/
+    }
 
-#conta{
-  width: 100%;
-  font-size: 15px;
-  text-align: center;
-}
+    #cont1{
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+    }
 
-/* redes soliales*/
-#cont2{
-  width: 100%;
-  font-size: 15px;
-  /*text-align: center;
-  justify-content: center;*/
-  display: flex;
-}
-#contre{/* */
- width: 40%;
- float: left;
- justify-content: flex-end;
-}
-#contre2{
-  width: 60%;
-  float: left;
-  text-align: left;
-}
-#rede{
-  width: 20px;
-  height: 20px;
-  position: relative;
- float: right;
-}
-#nomb{
-  position: relative;
-  float:  left;
-}
+    #conta{
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+    }
 
-#cont3{
-  width: 100%;
-  font-size: 15px;
-  text-align: center;
-  float: left;
-}
-/*teminos*/
-#teminos{
-   float: left;
-   width: 25%;
-   height: 100%;
-}
+    /* redes soliales*/
+    #cont2{
+      width: 100%;
+      font-size: 15px;
+      /*text-align: center;
+      justify-content: center;*/
+      display: flex;
+    }
+    #contre{/* */
+     width: 40%;
+     float: left;
+     justify-content: flex-end;
+    }
+    #contre2{
+      width: 60%;
+      float: left;
+      text-align: left;
+    }
+    #rede{
+      width: 20px;
+      height: 20px;
+      position: relative;
+     float: right;
+    }
+    #nomb{
+      position: relative;
+      float:  left;
+    }
 
-#derecho{
-   float: left;
-   width: 25%;
-}
-#redes{
-  float: left;
-   width: 25%;
-}
-#rede{
-  width: 20px;
-  height: 20px;
-  position: relative;
-  text-align: center;
-}
+    #cont3{
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+      float: left;
+    }
+    /*teminos*/
+    #teminos{
+       float: left;
+       width: 25%;
+       height: 100%;
+    }
+
+    #derecho{
+       float: left;
+       width: 25%;
+    }
+    #redes{
+      float: left;
+       width: 25%;
+    }
+    #rede{
+      width: 20px;
+      height: 20px;
+      position: relative;
+      text-align: center;
+    }
 
 
-#rede2{
-  width: 60%;
-  position: relative;
-  float: left;
-}
+    #rede2{
+      width: 60%;
+      position: relative;
+      float: left;
+    }
