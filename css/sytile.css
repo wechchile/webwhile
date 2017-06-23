@@ -8,7 +8,7 @@ header{
 div#gobal{
 
   width: 100%;
-  height: 50px;
+  height: 70px;
     font-family: "Dancing Script";
   overflow: hidden;
 }
@@ -108,7 +108,7 @@ div#imag1{
 }
 div#img_izq{
   width: 50%;
-  height: 300px;
+  height: 66%;
   background-color:  #d5c75f;
   float: left;
   /*position: static;
@@ -117,10 +117,12 @@ div#img_izq{
 
   div#img_der{
     width: 50%;
-    height: 300px;
+    height: 66%;
     background-color:  #d5c75f;
     float: right;
     }
+
+
 #pie{
     display: flex;
     width: 100%;
@@ -219,4 +221,20 @@ div#img_izq{
   width: 60%;
   position: relative;
   float: left;
+}
+
+/*diseño para movil*/
+
+
+@media all and (max-width : 900px) {
+  #contacto{
+    order: 1
+    width: 100%;
+  }
+  #termino{
+    order : 2
+    width: 100%;
+  }
+
+}
 }
