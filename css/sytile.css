@@ -108,7 +108,7 @@ div#imag1{
 }
 div#img_izq{
   width: 50%;
-  height: 66%;
+  height: 400px;
   background-color:  #d5c75f;
   float: left;
   /*position: static;
@@ -226,15 +226,29 @@ div#img_izq{
 /*diseño para movil*/
 
 
-@media all and (max-width : 900px) {
-  #contacto{
-    order: 1
+@media all and (max-width :600px) {
+  #pie{
     width: 100%;
-  }
-  #termino{
-    order : 2
-    width: 100%;
+    height: 400px;
   }
 
+  #contacto{
+    order: 1;
+    width: 100%;
+    position: absolute;
+    }
+  #termino{
+    order : 2;
+    width: 100%;
+    position: absolute;
+    }
+    #redes{
+      order:  3;
+      width: 100%;
+    }
+
 }
-}
+  #derecho{
+     order : 4 ;
+     width: 100%;
+  }
