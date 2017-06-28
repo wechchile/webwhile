@@ -70,10 +70,9 @@ div#imag1{
 }
 #imgen2{
   display: block;
-  margin: : 15px 0  0 0;
   width: 70%;
-  box-shadow:  2px 2px 2px #02010a;
-  margin: 8% 5% 5% 5%;
+  box-shadow:  2px 2px 2px 2px #02010a;
+  margin:10% 6% 12% 15%;
   text-align: center;
   text-shadow: 2px 2px 2px #02010a;
   -webkit-transition: all 2s ease-in-out;
@@ -89,11 +88,10 @@ div#imag1{
 }
 #imgen3{
   display: block;
-  margin: : 15px 0  0 0;
   width: 70%;
   box-shadow: 2px 2px 2px 2px #02010a;
   margin-top:  10px;
-  margin: 8% 5% 5% 5%;
+  margin: 10% 6% 12% 15%;
   text-align: center;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
@@ -106,7 +104,7 @@ div#imag1{
   -webkit-transform: translate(5px, -20px); /* Safari y Chrome */
   -moz-transform: translate(5px, -20px); /* Firefox */
 }
-@media all{
+@media all and (min-width:901px){
   div#img_izq{
     width: 50%;
     height: 69%;
@@ -223,7 +221,7 @@ div#imag1{
 /*diseño para movil*/
 
 
-@media all and (max-width :800px) and ( min-width : 500px) {
+@media all and (max-width :900px) {
   div#img_izq{
     order: 1;
     width: 100%;
