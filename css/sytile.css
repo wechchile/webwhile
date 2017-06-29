@@ -258,17 +258,47 @@ div#imag1{
     order : 2;
     width: 100%;
     text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
 
+    }
+    #tercon{
+    text-align: center;
     }
     #redes{
       order:  3;
       width: 100%;
       text-align: center;
+      display: inline-block;
     }
+    #cont2{
+      width: 100%;
+      display: inline-block;
+    }
+    #contre{/* */
+     width: 50%;
+     float: left;
+     justify-content: flex-end;
+    }
+    #contre2{
+      width: 50%;
+      float: left;
+      text-align: left;
+    }
+    #rede{
+      width: 20px;
+      height: 20px;
+      position: relative;
+      text-align: left;
+      float: right;
+    }
+
     #derecho{
        order : 4 ;
        width: 100%;
        text-align: center;
+       display: inline-block;
     }
 
 }
