@@ -5,25 +5,7 @@ header{
    margin: 0px;
    border-radius: 10px 10px 0 0;
 }
-div#gobal{
 
-  width: 100%;
-  height: 70px;
-    font-family: "Dancing Script";
-  overflow: hidden;
-}
-div#titu{
-  margin-top: 25px;
-  order: 1;
-  color: white;
-  font-size: 45px;
-  font-family: "Dancing Script";
-  text-shadow: 2px 2px 2px #02010a;
-  width: 60%;
-  margin: 5px;
-  float: left;
-  display: inline;
-}
 div#index{
   font-size: 30px;
   display: inline-block;
@@ -105,6 +87,24 @@ div#imag1{
   -moz-transform: translate(5px, -20px); /* Firefox */
 }
 @media all and (min-width:901px){
+
+  div#gobal{
+    width: 100%;
+    overflow: hidden;
+  }
+
+  div#titu{
+
+    order: 1;
+    color: white;
+    font-size: 45px;
+    font-family: "Dancing Script";
+    text-shadow: 2px 2px 2px #02010a;
+    width: 60%;
+    margin: 5px;
+    float: left;
+    display: inline;
+  }
   div#img_izq{
     width: 50%;
     height: 69%;
@@ -222,6 +222,21 @@ div#imag1{
 
 
 @media all and (max-width :900px) {
+  #gobal{
+    width: 100%;
+  }
+  #titu{
+    width: 100%;
+  }
+
+  #titulos{
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #02010a;
+    font-size: 45px;
+
+  }
   div#img_izq{
     order: 1;
     width: 100%;
@@ -242,12 +257,18 @@ div#imag1{
 
   #pie{
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: inline-block;
     background-color:  #C6d5c5;
     border-radius:  0px 0px 10px 10px;
   }
-
+  #cont1,#conta,#cont3{
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  #spacio{
+    height: 20px;
+  }
   #contacto{
     order: 1;
     width: 100%;
@@ -258,13 +279,15 @@ div#imag1{
     order : 2;
     width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bolder;
     text-align: center;
 
     }
     #tercon{
     text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
     }
     #redes{
       order:  3;
@@ -275,20 +298,22 @@ div#imag1{
     #cont2{
       width: 100%;
       display: inline-block;
+      font-size: 16px;
+      font-weight: bolder;
     }
     #contre{/* */
-     width: 50%;
+     width: 45%;
      float: left;
      justify-content: flex-end;
     }
     #contre2{
-      width: 50%;
+      width: 55%;
       float: left;
       text-align: left;
     }
     #rede{
       width: 20px;
-      height: 20px;
+      height: 16px;
       position: relative;
       text-align: left;
       float: right;
