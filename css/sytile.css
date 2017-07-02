@@ -1,10 +1,4 @@
-header{
-   background-color: #5b7989;
-   width: 100%;
-   height: 100px;
-   margin: 0px;
-   border-radius: 10px 10px 0 0;
-}
+
 
 
 a{
@@ -35,10 +29,11 @@ div#imag1{
 #imgen2{
   display: block;
   width: 70%;
+  height: 236px;e
   box-shadow:  2px 2px 2px 2px #02010a;
   margin:10% 6% 12% 15%;
   text-align: center;
-  text-shadow: 2px 2px 2px #02010a;
+  box-shadow: 2px 2px 2px 2px #02010a;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
   -ms-transition: all 2s ease-in-out;
@@ -53,8 +48,8 @@ div#imag1{
 #imgen3{
   display: block;
   width: 70%;
+  height: 236px;
   box-shadow: 2px 2px 2px 2px #02010a;
-  margin-top:  10px;
   margin: 10% 6% 12% 15%;
   text-align: center;
   -webkit-transition: all 1s ease-in-out;
@@ -69,6 +64,13 @@ div#imag1{
   -moz-transform: translate(5px, -20px); /* Firefox */
 }
 @media all and (min-width:901px){
+  header{
+     background-color: #5b7989;
+     width: 100%;
+     height: 100px;
+     margin: 0px;
+     border-radius: 10px 10px 0 0;
+  }
 
   div#gobal{
     width: 100%;
@@ -81,7 +83,7 @@ div#imag1{
     font-size: 45px;
     font-family: "Dancing Script";
     text-shadow: 2px 2px 2px #02010a;
-    width: 60%;
+    width: 65%;
     margin: 5px;
     float: left;
     display: inline;
@@ -92,25 +94,38 @@ div#imag1{
   }
 
   div#index{
-    font-size: 30px;
+    font-size: 20px;
     display: inline-block;
-    order: 2;
-    width: 30%;
+    width: 60px;
     display: inline;
+    margin-top: 55px;
   }
 
   div#paisaje{
-    width: 60%;
+    width: 70px;
+    display: inline;
+    margin-top: 50px;
+        font-size: 25px;
   }
 
   div#retratos{
     margin-right: 5px;
     width: 40%;
-  }
+    display:inline;
+    margin-top: 50px;
+    font-size: 25px;
 
+  }
+  a{ margin-top: 60px;}
+div#ali{
+  display: inline-grid;
+  width: 10px;
+  height: 40px;
+
+}
   div#img_izq{
     width: 50%;
-    height: 69%;
+    height: 66%;
     background-color:  #d5c75f;
     float: left;
     /*position: static;
@@ -224,10 +239,18 @@ div#imag1{
 /*diseño para movil*/
 
 
-@media all and (max-width :900px) {
+@media all and (max-width :900px)  {
+  header{
+     background-color: #5b7989;
+     width: 100%;
+     height: 100px;
+     margin: 0px;
+     border-radius: 10px 10px 0 0;
+  }
   #gobal{
     width: 100%;
-    height: 150px;
+    height: 45%;
+
   }
   #titu{
     width: 100%;
@@ -240,6 +263,7 @@ div#imag1{
     text-shadow: 2px 2px 2px #02010a;
     font-size: 45px;
   }
+
   p#titulos{
     margin: 0;
   }
@@ -247,20 +271,24 @@ div#imag1{
     width: 50px;
     display: flex;
     float: left;
+    font-size: 20px;
+
   }
   #paisaje{
-    width: 50px;
+    width: 70px;
     display: flex;
     float: left;
+    font-size: 20px;
   }
   #retratos{
     width: 50px;
     flex: auto;
     float: left;
+    font-size: 20px;
   }
   #ali{
     width: 35%;
-    height: 25%;
+    height: 35px;
     float: left;
   }
 
@@ -354,4 +382,14 @@ div#imag1{
        display: inline-block;
     }
 
+}
+
+@media all and (max-width : 520px){
+  header{
+     background-color: #5b7989;
+     width: 100%;
+     height: 150px;
+     margin: 0px;
+     border-radius: 10px 10px 0 0;
+  }
 }
