@@ -80,12 +80,12 @@ body{
       margin: 5% 5% 5% 5%;
       filter: blur(10px);
     }
-    #imagen2,#imagn,#imgn3{
+    #imgen2,#imgl2,#imgen3a{
       text-align: center;
-      margin: 5% 5% 5% 5%;
+      margin: 5%;
       filter: grayscale(100%);
     }
-    #imgen3{
+    #imgen3l1{
       text-align: center;
       margin: 5% 5% 5% 5%;
       filter: sepia(90%);
