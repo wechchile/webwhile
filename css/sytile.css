@@ -7,10 +7,7 @@ body{
   border: 2px;
 
 }
-#contenedor{
-  width: 900px;
-  margin: auto;
-}
+
 @font-face {
   font-family: "Dancing Script";
   src:  url("../fuente/DancingScript.otf");
@@ -63,6 +60,11 @@ div#imag1{
   -ms-transform: translate(5px, -20px); /* IE 9 */
   -webkit-transform: translate(5px, -20px); /* Safari y Chrome */
   -moz-transform: translate(5px, -20px); /* Firefox */
+
+}
+#text{
+   text-align: center;
+   
 }
 @media all and (min-width:900px){
   header{
@@ -71,6 +73,10 @@ div#imag1{
      height: 100px;
      margin: 0px;
      border-radius: 10px 10px 0 0;
+  }
+  #contenedor{
+    width: 900px;
+    margin: auto;
   }
 
   div#gobal{
@@ -244,6 +250,10 @@ div#imag1{
      margin: 0px;
      border-radius: 10px 10px 0 0;
   }
+  #contenedor{
+    width: 100%;
+    margin: auto;
+  }
   #gobal{
     width: 100%;
     height: 45%;
@@ -318,6 +328,7 @@ div#imag1{
   #cont1,#conta,#cont3{
     font-size: 16px;
     font-weight: bolder;
+    margin-left: 20px;
   }
   #spacio{
     height: 20px;
@@ -325,7 +336,7 @@ div#imag1{
   #contacto{
     order: 1;
     width: 100%;
-    text-align: center;
+    text-align: left;
 
     }
   #ticont{
@@ -334,28 +345,32 @@ div#imag1{
     text-align: center;
     font-size: 35px;
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
 
     }
     #tercon{
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     font-weight: bolder;
+    margin-left: 20px;
     }
     #redes{
       order:  3;
       width: 100%;
-      text-align: center;
+      text-align: left;
       display: inline-block;
+
     }
     #cont2{
       width: 100%;
       display: inline-block;
       font-size: 16px;
       font-weight: bolder;
+      margin-left: 20px;
     }
     #contre{/* */
-     width: 45%;
+     width: 5%;
      float: left;
      justify-content: flex-end;
     }
@@ -369,14 +384,16 @@ div#imag1{
       height: 16px;
       position: relative;
       text-align: left;
-      float: right;
+      float: left;
+
     }
 
     #derecho{
        order : 4 ;
        width: 100%;
-       text-align: center;
+       text-align: left;
        display: inline-block;
+
     }
 
 }
