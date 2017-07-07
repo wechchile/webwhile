@@ -7,6 +7,10 @@ body{
   border: 2px;
 
 }
+#contenedor{
+  width: 900px;
+  margin: auto;
+}
 @font-face {
   font-family: "Dancing Script";
   src:  url("../fuente/DancingScript.otf");
@@ -60,7 +64,7 @@ div#imag1{
   -webkit-transform: translate(5px, -20px); /* Safari y Chrome */
   -moz-transform: translate(5px, -20px); /* Firefox */
 }
-@media all and (min-width:901px){
+@media all and (min-width:900px){
   header{
      background-color: #5b7989;
      width: 100%;
@@ -90,12 +94,17 @@ div#imag1{
    margin: 0;
   }
 
+  #pagindex:link{
+    text-decoration: none;
+  }
+
   div#index{
     font-size: 20px;
     display: inline-block;
     width: 60px;
     display: inline;
     margin-top: 55px;
+
   }
 
   div#paisaje{
