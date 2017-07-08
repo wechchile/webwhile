@@ -75,15 +75,15 @@ div#imag1{
 #contenedor{
   position: relative;
  animation-name: animacion1;
- animation-duration: 1s;
+ animation-duration: 4s;
 
 }
 @keyframes animacion1{
-  0%{ top:  700px;}
-  25%{ top: 525px;}
-  50%{ top: 350px;}
-  75%{ top: 175px;}
-  100%{ top: 0px;}
+  0%{ margin-top:  150%;}
+  /*25%{ top: 525px;}*/
+  50%{ margin-top: -5%;}
+  /*75%{ top: 175px;}*/
+  100%{ top: 0%;}
 }
 
 
@@ -266,13 +266,20 @@ div#imag1{
 
 
 @media all and (max-width :900px)  {
-  header{
+  /*header{
      background-color: #5b7989;
      width: 100%;
      height: 100px;
      margin: 0px;
      border-radius: 10px 10px 0 0;
-  }
+  }*/
+  header{
+     background-color: #5b7989;
+     width: 100%;
+     height: 150px;
+     margin: 0px;
+     border-radius: 10px 10px 0 0;
+   }
   #contenedor{
     width: 100%;
     margin: auto;
@@ -320,7 +327,7 @@ div#imag1{
     font-size: 20px;
   }
   #ali{
-    width: 35%;
+    width: 30%;
     height: 35px;
     float: left;
   }
@@ -424,6 +431,7 @@ div#imag1{
 
 }
 
+/*
 @media all and (max-width : 520px){
   header{
      background-color: #5b7989;
@@ -432,4 +440,4 @@ div#imag1{
      margin: 0px;
      border-radius: 10px 10px 0 0;
   }
-}
+}*/
