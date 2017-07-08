@@ -18,7 +18,7 @@ div#imag1{
   background-color:  #82c3a6;
 }
 #imgen{
-  width: 70%;
+  width: 80%;
   margin: 10% 10% 10% 10%;
   text-align: center;
   text-shadow: 2px 2px 2px #02010a;
@@ -29,7 +29,7 @@ div#imag1{
   width: 70%;
   height: 236px;e
   box-shadow:  2px 2px 2px 2px #02010a;
-  margin:10% 6% 12% 15%;
+  margin:10% 6% 1% 15%;
   text-align: center;
   box-shadow: 2px 2px 2px 2px #02010a;
   -webkit-transition: all 2s ease-in-out;
@@ -48,7 +48,7 @@ div#imag1{
   width: 70%;
   height: 236px;
   box-shadow: 2px 2px 2px 2px #02010a;
-  margin: 10% 6% 12% 15%;
+  margin: 10% 6% 1% 15%;
   text-align: center;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
@@ -63,9 +63,28 @@ div#imag1{
 
 }
 #text{
-   text-align: center;
-   
+   text-align:center; /* REVIEW:  */
+   font-weight: bolder;
+   margin: 5% ;
+   font-size: 20px;
+
 }
+#contenedor{
+  position: relative;
+ animation-name: animacion1;
+ animation-duration: 1s;
+
+}
+@keyframes animacion1{
+  0%{ top:  700px;}
+  25%{ top: 525px;}
+  50%{ top: 350px;}
+  75%{ top: 175px;}
+  100%{ top: 0px;}
+}
+
+
+
 @media all and (min-width:900px){
   header{
      background-color: #5b7989;
@@ -76,6 +95,7 @@ div#imag1{
   }
   #contenedor{
     width: 900px;
+    height: 100%;
     margin: auto;
   }
 
@@ -280,6 +300,9 @@ div#imag1{
     float: left;
     font-size: 20px;
 
+  }
+  #pagindex:link{
+    text-decoration: none;
   }
   #paisaje{
     width: 70px;
