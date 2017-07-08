@@ -8,6 +8,11 @@ body{
 
 }
 
+p{
+  margin-top: 5px;
+  margin-bottom: 2px;
+  text-align: center;
+}
 #pagindex:link{
   text-decoration: none;
 }
@@ -279,6 +284,9 @@ div#imag1{
      height: 150px;
      margin: 0px;
      border-radius: 10px 10px 0 0;
+   }
+   p{
+     text-align: left;
    }
   #contenedor{
     width: 100%;

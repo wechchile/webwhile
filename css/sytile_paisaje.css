@@ -26,6 +26,11 @@ img{
  animation-duration: 4s;
 
 }
+p{
+  margin-top: 5px;
+  margin-bottom: 2px;
+  text-align: center;
+}
 .espacio{
   height: 10px;
 }
@@ -266,6 +271,7 @@ img{
          margin: 0px;
          border-radius: 10px 10px 0 0;
       }
+      p{text-align: left;}
       div#ali{
         margin: auto;
       }
