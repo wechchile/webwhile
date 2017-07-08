@@ -8,6 +8,9 @@ body{
 
 }
 
+#pagindex:link{
+  text-decoration: none;
+}
 @font-face {
   font-family: "Dancing Script";
   src:  url("../fuente/DancingScript.otf");

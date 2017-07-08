@@ -12,9 +12,26 @@ body{
   src:  url("../fuente/DancingScript.otf");
 }
 
-#contenedor{
-  width: 900px;
+img{
+  box-shadow: 2px 2px 2px 2px #02010a;
 }
+#retratoslink:link{
+  text-decoration: none;
+}
+#contenedor{
+  position: relative;
+ animation-name: animacion1;
+ animation-duration: 4s;
+
+}
+@keyframes animacion1{
+  0%{ margin-top:  150%;}
+  /*25%{ top: 525px;}*/
+  50%{ margin-top: -5%;}
+  /*75%{ top: 175px;}*/
+  100%{ top: 0%;}
+}
+
 
 @media all and (min-width:900px){
     header{
@@ -284,9 +301,8 @@ body{
       font-size: 20px;
     }
     #ali{
-      width: 30%;
-      height: 35px;
-      float: left;
+       margin: auto;
+
     }
 
     #imagen{
@@ -376,6 +392,7 @@ body{
     #cont1,#conta,#cont3{
       font-size: 16px;
       font-weight: bolder;
+      margin-left: 20px;
     }
     #spacio{
       height: 20px;
@@ -383,7 +400,8 @@ body{
     #contacto{
       order: 1;
       width: 100%;
-      text-align: center;
+      text-align: left;
+
       }
     #ticont{
       order : 2;
@@ -391,28 +409,32 @@ body{
       text-align: center;
       font-size: 35px;
       font-weight: bolder;
-      text-align: center;
+      text-align: left;
+      margin-left: 20px;
 
       }
       #tercon{
-      text-align: center;
+      text-align: left;
       font-size: 16px;
       font-weight: bolder;
+      margin-left: 20px;
       }
       #redes{
         order:  3;
         width: 100%;
-        text-align: center;
+        text-align: left;
         display: inline-block;
+
       }
       #cont2{
         width: 100%;
         display: inline-block;
         font-size: 16px;
         font-weight: bolder;
+        margin-left: 20px;
       }
       #contre{/* */
-       width: 45%;
+       width: 5%;
        float: left;
        justify-content: flex-end;
       }
@@ -426,15 +448,19 @@ body{
         height: 16px;
         position: relative;
         text-align: left;
-        float: right;
+        float: left;
+
       }
 
       #derecho{
          order : 4 ;
          width: 100%;
-         text-align: center;
+         text-align: left;
          display: inline-block;
+
       }
+
+
 
   }
 
